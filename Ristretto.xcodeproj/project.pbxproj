@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F846501A1DDF0F002A9C68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8464F1A1DDF0F002A9C68 /* AppDelegate.m */; };
+		22F846521A1DDF0F002A9C68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F846511A1DDF0F002A9C68 /* main.m */; };
+		22F846541A1DDF0F002A9C68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F846531A1DDF0F002A9C68 /* Images.xcassets */; };
+		22F846571A1DDF0F002A9C68 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F846551A1DDF0F002A9C68 /* MainMenu.xib */; };
+		22F846631A1DDF0F002A9C68 /* RistrettoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F846621A1DDF0F002A9C68 /* RistrettoTests.m */; };
+		22F8466D1A1DDF2F002A9C68 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8466C1A1DDF2F002A9C68 /* AVFoundation.framework */; };
+		22F8466F1A1DDF39002A9C68 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8466E1A1DDF39002A9C68 /* Cocoa.framework */; };
+		22F846741A1DDFE8002A9C68 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F846701A1DDFE8002A9C68 /* Status.png */; };
+		22F846751A1DDFE8002A9C68 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F846711A1DDFE8002A9C68 /* Status@2x.png */; };
+		22F846761A1DDFE8002A9C68 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F846721A1DDFE8002A9C68 /* StatusHighlighted.png */; };
+		22F846771A1DDFE8002A9C68 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F846731A1DDFE8002A9C68 /* StatusHighlighted@2x.png */; };
+		22F846791A1DE061002A9C68 /* murmur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22F846781A1DE061002A9C68 /* murmur.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22F8465D1A1DDF0F002A9C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F846411A1DDF0F002A9C68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F846481A1DDF0F002A9C68;
+			remoteInfo = Ristretto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22F846491A1DDF0F002A9C68 /* Ristretto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ristretto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F8464D1A1DDF0F002A9C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F8464E1A1DDF0F002A9C68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22F8464F1A1DDF0F002A9C68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22F846511A1DDF0F002A9C68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22F846531A1DDF0F002A9C68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22F846561A1DDF0F002A9C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22F8465C1A1DDF0F002A9C68 /* RistrettoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RistrettoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F846611A1DDF0F002A9C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F846621A1DDF0F002A9C68 /* RistrettoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RistrettoTests.m; sourceTree = "<group>"; };
+		22F8466C1A1DDF2F002A9C68 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22F8466E1A1DDF39002A9C68 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		22F846701A1DDFE8002A9C68 /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
+		22F846711A1DDFE8002A9C68 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
+		22F846721A1DDFE8002A9C68 /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
+		22F846731A1DDFE8002A9C68 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusHighlighted@2x.png"; sourceTree = "<group>"; };
+		22F846781A1DE061002A9C68 /* murmur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = murmur.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F846461A1DDF0F002A9C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F8466F1A1DDF39002A9C68 /* Cocoa.framework in Frameworks */,
+				22F8466D1A1DDF2F002A9C68 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F846591A1DDF0F002A9C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F846401A1DDF0F002A9C68 = {
+			isa = PBXGroup;
+			children = (
+				22F8466E1A1DDF39002A9C68 /* Cocoa.framework */,
+				22F8466C1A1DDF2F002A9C68 /* AVFoundation.framework */,
+				22F8464B1A1DDF0F002A9C68 /* Ristretto */,
+				22F8465F1A1DDF0F002A9C68 /* RistrettoTests */,
+				22F8464A1A1DDF0F002A9C68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22F8464A1A1DDF0F002A9C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F846491A1DDF0F002A9C68 /* Ristretto.app */,
+				22F8465C1A1DDF0F002A9C68 /* RistrettoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F8464B1A1DDF0F002A9C68 /* Ristretto */ = {
+			isa = PBXGroup;
+			children = (
+				22F8464E1A1DDF0F002A9C68 /* AppDelegate.h */,
+				22F8464F1A1DDF0F002A9C68 /* AppDelegate.m */,
+				22F846781A1DE061002A9C68 /* murmur.mp3 */,
+				22F846701A1DDFE8002A9C68 /* Status.png */,
+				22F846711A1DDFE8002A9C68 /* Status@2x.png */,
+				22F846721A1DDFE8002A9C68 /* StatusHighlighted.png */,
+				22F846731A1DDFE8002A9C68 /* StatusHighlighted@2x.png */,
+				22F846531A1DDF0F002A9C68 /* Images.xcassets */,
+				22F846551A1DDF0F002A9C68 /* MainMenu.xib */,
+				22F8464C1A1DDF0F002A9C68 /* Supporting Files */,
+			);
+			path = Ristretto;
+			sourceTree = "<group>";
+		};
+		22F8464C1A1DDF0F002A9C68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F8464D1A1DDF0F002A9C68 /* Info.plist */,
+				22F846511A1DDF0F002A9C68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22F8465F1A1DDF0F002A9C68 /* RistrettoTests */ = {
+			isa = PBXGroup;
+			children = (
+				22F846621A1DDF0F002A9C68 /* RistrettoTests.m */,
+				22F846601A1DDF0F002A9C68 /* Supporting Files */,
+			);
+			path = RistrettoTests;
+			sourceTree = "<group>";
+		};
+		22F846601A1DDF0F002A9C68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F846611A1DDF0F002A9C68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F846481A1DDF0F002A9C68 /* Ristretto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F846661A1DDF0F002A9C68 /* Build configuration list for PBXNativeTarget "Ristretto" */;
+			buildPhases = (
+				22F846451A1DDF0F002A9C68 /* Sources */,
+				22F846461A1DDF0F002A9C68 /* Frameworks */,
+				22F846471A1DDF0F002A9C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ristretto;
+			productName = Ristretto;
+			productReference = 22F846491A1DDF0F002A9C68 /* Ristretto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22F8465B1A1DDF0F002A9C68 /* RistrettoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F846691A1DDF0F002A9C68 /* Build configuration list for PBXNativeTarget "RistrettoTests" */;
+			buildPhases = (
+				22F846581A1DDF0F002A9C68 /* Sources */,
+				22F846591A1DDF0F002A9C68 /* Frameworks */,
+				22F8465A1A1DDF0F002A9C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F8465E1A1DDF0F002A9C68 /* PBXTargetDependency */,
+			);
+			name = RistrettoTests;
+			productName = RistrettoTests;
+			productReference = 22F8465C1A1DDF0F002A9C68 /* RistrettoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F846411A1DDF0F002A9C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Josh Puckett";
+				TargetAttributes = {
+					22F846481A1DDF0F002A9C68 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					22F8465B1A1DDF0F002A9C68 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 22F846481A1DDF0F002A9C68;
+					};
+				};
+			};
+			buildConfigurationList = 22F846441A1DDF0F002A9C68 /* Build configuration list for PBXProject "Ristretto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22F846401A1DDF0F002A9C68;
+			productRefGroup = 22F8464A1A1DDF0F002A9C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F846481A1DDF0F002A9C68 /* Ristretto */,
+				22F8465B1A1DDF0F002A9C68 /* RistrettoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F846471A1DDF0F002A9C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F846771A1DDFE8002A9C68 /* StatusHighlighted@2x.png in Resources */,
+				22F846741A1DDFE8002A9C68 /* Status.png in Resources */,
+				22F846541A1DDF0F002A9C68 /* Images.xcassets in Resources */,
+				22F846791A1DE061002A9C68 /* murmur.mp3 in Resources */,
+				22F846761A1DDFE8002A9C68 /* StatusHighlighted.png in Resources */,
+				22F846751A1DDFE8002A9C68 /* Status@2x.png in Resources */,
+				22F846571A1DDF0F002A9C68 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F8465A1A1DDF0F002A9C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F846451A1DDF0F002A9C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F846521A1DDF0F002A9C68 /* main.m in Sources */,
+				22F846501A1DDF0F002A9C68 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F846581A1DDF0F002A9C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F846631A1DDF0F002A9C68 /* RistrettoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22F8465E1A1DDF0F002A9C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F846481A1DDF0F002A9C68 /* Ristretto */;
+			targetProxy = 22F8465D1A1DDF0F002A9C68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22F846551A1DDF0F002A9C68 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F846561A1DDF0F002A9C68 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F846641A1DDF0F002A9C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22F846651A1DDF0F002A9C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22F846671A1DDF0F002A9C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Ristretto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22F846681A1DDF0F002A9C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Ristretto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22F8466A1A1DDF0F002A9C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RistrettoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ristretto.app/Contents/MacOS/Ristretto";
+			};
+			name = Debug;
+		};
+		22F8466B1A1DDF0F002A9C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RistrettoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ristretto.app/Contents/MacOS/Ristretto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F846441A1DDF0F002A9C68 /* Build configuration list for PBXProject "Ristretto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F846641A1DDF0F002A9C68 /* Debug */,
+				22F846651A1DDF0F002A9C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F846661A1DDF0F002A9C68 /* Build configuration list for PBXNativeTarget "Ristretto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F846671A1DDF0F002A9C68 /* Debug */,
+				22F846681A1DDF0F002A9C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22F846691A1DDF0F002A9C68 /* Build configuration list for PBXNativeTarget "RistrettoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F8466A1A1DDF0F002A9C68 /* Debug */,
+				22F8466B1A1DDF0F002A9C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F846411A1DDF0F002A9C68 /* Project object */;
+}
